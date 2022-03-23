@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>JS training</title>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <div class="all container  ">
+        <h1 class="fw-bolder p-5 ">Book Mark</h1>
+        <hr>
+        <div class="content text-center p-5">
+            <h3 class="fw-bold fs-4">Bookmark Your Favorite Sites</h3>
+            <div class="text-center mt-5 ">
+                <label class="fw-bold my-3 " >Site Name</label>
+                <input type="text" class="form-control w-75 m-auto" id="siteName" >
+                <div id="al1" class="m-auto alert alert-danger w-50 border-danger mt-3 p-0 d-none"  role="alert">
+                    <h4>Name is required</h4>
+                </div>
+                <label class="fw-bold my-3 " >Site URL</label>
+                <input  type="text" class=" form-control w-75 m-auto" id="siteUrl" >
+                <div id="al2" class="m-auto alert alert-danger w-50 border-danger mt-3 p-0 d-none" role="alert">
+                    <h4>URL is required</h4>
+                </div>
+                <button class="border-0 rounded  my-3 btn btn-primary" id="addUrl">Submit</button>
+            </div>
+        </div>
+        <div class="">
+            <table class="table table-striped table-secondary " id="siteList">
+                
+                
+                
+            </table>
+        </div>
+        <hr>
+        <h6 class="fw-bold fs-6" >© 2019 Bookmarker Inc.</h6>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
